@@ -110,9 +110,9 @@ const AddTodo: FC = () => {
               />
               {type === 'edit' ? (
                 <Button
-                  style={styles.deleteBtn}
+                  containerStyle={styles.deleteBtn}
                   title="Delete"
-                  type="clear"
+                  type="outline"
                   titleStyle={styles.deleteText}
                   disabled={isSubmitting}
                   onPress={onDeleteTodo}

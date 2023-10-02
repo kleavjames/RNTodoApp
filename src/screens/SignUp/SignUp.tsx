@@ -83,7 +83,7 @@ const SignUp = () => {
               <Button
                 title="Sign Up"
                 onPress={() => handleSubmit()}
-                style={styles.button}
+                containerStyle={styles.button}
               />
               <Button
                 title="Sign back in"

@@ -72,7 +72,7 @@ const SignIn = () => {
                 }
               />
               <Button
-                style={styles.button}
+                containerStyle={styles.button}
                 title="Sign In"
                 onPress={() => handleSubmit()}
               />
