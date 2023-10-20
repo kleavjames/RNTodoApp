@@ -5,7 +5,7 @@ import {Button, Input as BaseInput, Text} from '@rneui/themed';
 import {Container} from '../../components';
 import {Formik} from 'formik';
 import * as Yup from 'yup';
-import {useNavigation} from '@react-navigation/core';
+import {useNavigation} from '@react-navigation/native';
 import {AuthNavigationProp} from '../../navigation/auth';
 import {Colors} from '../../constants/theme';
 import {IAuth} from '../SignUp/SignUp';

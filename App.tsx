@@ -25,11 +25,11 @@ const theme = createTheme({
 
 const App = () => {
   return (
-    <ThemeProvider theme={theme}>
-      <NavigationContainer>
+    <NavigationContainer>
+      <ThemeProvider theme={theme}>
         <RootStack />
-      </NavigationContainer>
-    </ThemeProvider>
+      </ThemeProvider>
+    </NavigationContainer>
   );
 };
 
